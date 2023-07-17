@@ -1,0 +1,35 @@
+nav {
+  position: fixed;
+  width: 1024px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 10px 10px;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(20px);
+  display: flex;
+  justify-content: space-between;
+  z-index: 300;
+  align-items: center;
+  top: 20px;
+  padding: 16px 32px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 50px;
+}
+nav ul li a {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+a.logo {
+  color: #fff;
+  font-weight: 800;
+  font-size: 16px;
+}
+a.logo .red {
+  color: var(--red-color);
+}
