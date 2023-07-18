@@ -16,7 +16,7 @@ const Topics = () => {
       <div className="wrapper">
         <h2>What you will learn?</h2>
         <div className="content-container">
-          <ul>
+          <ul className="topics-list">
             <li onMouseEnter={() => setCurrentImage(frequencies)}>
               What are Frequencies
             </li>
@@ -30,12 +30,12 @@ const Topics = () => {
             </li>
             <li onMouseEnter={() => setCurrentImage(mastering)}>Mastering</li>
           </ul>
+          <div className="topic-image">
+            <img src={currentImage} alt="" />
+          </div>
         </div>
-        <div className="topic-image">
-          <img src={currentImage} alt="" />
-        </div>
+        <img src={bgElement1} alt="" className="bg-element-1" />
       </div>
-      <img src={bgElement1} alt="" className="bg-element-1" />
     </section>
   );
 };
