@@ -9,7 +9,7 @@ const Navbar = () => {
     <>
       <nav>
         <a href="#" className="logo">
-          Sound<span className="red">DZign</span>
+          Sound<span className="red">Design</span>
         </a>
 
         <ul>

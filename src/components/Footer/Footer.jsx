@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="content-container">
           <div className="links">
             <a href="#" className="logo">
-              Sound<span className="red">Dzign</span>
+              Sound<span className="red">Design</span>
             </a>
             <div className="social-icons">
               <a href="#">
