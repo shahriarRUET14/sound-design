@@ -42,6 +42,26 @@
 }
 #topics .bg-element-1 {
   position: absolute;
-  right: 24px;
+  right: -24px;
   bottom: 0;
+}
+
+@media (max-width: 1024px) {
+  #topics .topic-image img {
+    width: 385px;
+    height: 287px;
+    flex-shrink: 0;
+  }
+}
+
+@media (max-width: 720px) {
+  #topics .topic-image img {
+    display: none;
+  }
+  #topics .bg-element-1 {
+    width: 88px;
+    height: 60px;
+    flex-shrink: 0;
+    right: 32px;
+  }
 }

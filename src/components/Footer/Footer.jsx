@@ -46,6 +46,9 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+          <div className="copyright mobile">
+            The Website is designed by Shahriar @2023
+          </div>
         </div>
       </div>
     </footer>
