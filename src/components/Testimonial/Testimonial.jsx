@@ -2,11 +2,11 @@ import "./Testimonial.css";
 import { testimonial1, testimonial2, testimonial3 } from "../../assets";
 const Testimonial = () => {
   return (
-    <section id="testimonial" className="dark-gray">
+    <section id="testimonials" className="dark-gray">
       <div className="wrapper">
         <h2>What our student says?</h2>
         <div className="content-container">
-          <div className="testimonial">
+          <div className="testimonials">
             <img src={testimonial1} alt="" />
             <div className="reviewer-details">
               <div className="name">Peter Adams</div>
@@ -16,7 +16,7 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
-          <div className="testimonial">
+          <div className="testimonials">
             <img src={testimonial2} alt="" />
             <div className="reviewer-details">
               <div className="name">Robert Fox</div>
@@ -24,7 +24,7 @@ const Testimonial = () => {
               <div className="review">I got learn a lit about react </div>
             </div>
           </div>
-          <div className="testimonial">
+          <div className="testimonials">
             <img src={testimonial3} alt="" />
             <div className="reviewer-details">
               <div className="name">Emily Smith</div>
